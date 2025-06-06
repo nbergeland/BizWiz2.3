@@ -232,7 +232,7 @@ class DynamicDataLoader:
                     'get': 'B19013_001E,B25064_001E,B01002_001E,B01003_001E',  # Income, rent, age, population
                     'for': 'tract:*',
                     'in': f'state:{self._get_state_fips(config.market_data.state_code)}',
-                    'key': 'a70b1f4d848a351bc3681d063ca6e9586d1e610d'  # Replace with actual key
+                    'key': 'YOURAPIHERE'  # Replace with actual key
                 }
                 
                 if self.session:
@@ -278,7 +278,7 @@ class DynamicDataLoader:
                 url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
                 params = {
                     'query': f"{competitor} restaurant {config.display_name}",
-                    'key': 'AIzaSyDhW2qpk-0gwK2p-clLpcNphRqZnqkarhs',  # Replace with actual key
+                    'key': 'YOURAPIHERE',  # Replace with actual key
                     'radius': 50000,  # 50km radius
                     'location': f"{config.bounds.center_lat},{config.bounds.center_lon}"
                 }
