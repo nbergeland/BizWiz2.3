@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-## 🚀 Overview
+## Overview
 
 BizWiz 2.3 is a comprehensive location intelligence platform designed for restaurant chain expansion. It combines real-time data collection, machine learning, and interactive visualization to identify optimal restaurant locations across 219+ US cities.
 
@@ -44,7 +44,7 @@ BizWiz2.3/
     └── README.md                   # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. **One-Command Setup**
 ```bash
@@ -191,7 +191,7 @@ GOOGLE_PLACES_KEY = "your_google_key"  # For competitor mapping
 4. **Model Training**: Real-time ML pipeline
 5. **Visualization**: Interactive dashboard rendering
 
-## 🚀 Advanced Usage
+## Advanced Usage
 
 ### Adding New Cities
 ```python
