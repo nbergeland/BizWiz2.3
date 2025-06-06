@@ -1,4 +1,4 @@
-# 🍗 BizWiz 2.3: Real-Time Location Intelligence Platform
+# 🍗🎯 BizWiz 2.3: Real-Time Location Intelligence Platform
 
 **Advanced restaurant site selection and market analysis with dynamic data integration**
 
