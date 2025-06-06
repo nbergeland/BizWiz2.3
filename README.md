@@ -5,7 +5,6 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Dash](https://img.shields.io/badge/dashboard-Dash-green.svg)](https://dash.plotly.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![LOGO](https://github.com/user-attachments/assets/40ac4db5-7211-4d52-b197-ef9c95cfffdd)
 
 
 ## 🚀 Overview
