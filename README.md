@@ -331,12 +331,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 # Dashboard Screenshots
+<img width="1728" alt="Screenshot 2025-06-12 at 2 12 53 PM" src="https://github.com/user-attachments/assets/ec5d7f13-ce77-406e-8602-17f946f7ac86" />
 <img width="1728" alt="Screenshot 2025-06-12 at 2 13 18 PM" src="https://github.com/user-attachments/assets/13aa5b7d-1d90-4960-9f53-fe953875e9d5" />
 <img width="1728" alt="Screenshot 2025-06-12 at 2 13 10 PM" src="https://github.com/user-attachments/assets/beae433f-f5e1-4e0a-b241-03fec1396569" />
 <img width="1728" alt="Screenshot 2025-06-12 at 2 13 03 PM" src="https://github.com/user-attachments/assets/28131535-eaa3-4041-9492-cef08099c485" />
 <img width="1728" alt="Screenshot 2025-06-12 at 2 13 00 PM" src="https://github.com/user-attachments/assets/fad662c9-1d54-4602-8de1-19cdbbd3dd08" />
-<img width="1728" alt="Screenshot 2025-06-12 at 2 12 53 PM" src="https://github.com/user-attachments/assets/ec5d7f13-ce77-406e-8602-17f946f7ac86" />
-
 
 **Made with ❤️ for smarter business decisions**
 
