@@ -13,11 +13,10 @@ import threading
 import time
 import json
 from datetime import datetime
-from typing import Dict, Any, Optional
-import logging
-
+from typing import Dict, Any, Optional, List
 from city_config import CityConfigManager
 from dynamic_data_loader import load_city_data_on_demand, DataLoadingProgress
+import logging
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -805,16 +804,39 @@ def main():
     print("   - Interactive market intelligence")
     print()
     print(f"📍 Available cities: {len(available_cities)}")
-    print("🌐 Open your browser to: http://127.0.0.1:8051")
+    
+    # Test if port is available first
+    import socket
+    try:
+        test_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        test_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        test_sock.bind(('127.0.0.1', 8051))
+        test_sock.close()
+        port = 8051
+        print(f"🌐 Dashboard will start at: http://127.0.0.1:{port}")
+    except OSError:
+        port = 8052
+        print(f"⚠️  Port 8051 in use, using port {port} instead")
+        print(f"🌐 Dashboard will start at: http://127.0.0.1:{port}")
+    
+    print("✋ Press Ctrl+C to stop the dashboard")
+    print()
     
     try:
-        app.run_server(debug=True, host='127.0.0.1', port=8051)
+        app.run(
+            debug=True,
+            host='127.0.0.1',
+            port=port
+        )
+    except KeyboardInterrupt:
+        print("\n👋 Dashboard stopped by user")
     except Exception as e:
-        print(f"❌ Error starting dynamic dashboard: {e}")
+        print(f"❌ Error starting dashboard: {e}")
         print("🔧 Troubleshooting:")
-        print("   1. Make sure port 8051 is available")
+        print("   1. Make sure no other process is using the port")
         print("   2. Check that city_config.py and dynamic_data_loader.py exist")
         print("   3. Verify all dependencies are installed")
+        print("   4. Try: python simple_test_dashboard.py") 
 
 if __name__ == '__main__':
     main()
