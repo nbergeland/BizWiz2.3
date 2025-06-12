@@ -18,7 +18,7 @@ BizWiz 2.3 is a comprehensive location intelligence platform designed for restau
 - **🤖 ML-Powered Predictions**: Revenue forecasting using advanced Random Forest models
 - **🗺️ Interactive Mapping**: Live location visualization with competitor analysis
 - **📊 Dynamic Dashboard**: Real-time analytics with multiple specialized views
-- **🎯 Competitor Intelligence**: Automated competitor mapping and distance analysis
+- **🎯 Competitor Intelligence**: Batch fetching of nearby competitors
 - **📈 Market Insights**: Comprehensive demographic and commercial analysis
 
 ## 📁 Project Structure
